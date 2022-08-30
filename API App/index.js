@@ -2,7 +2,6 @@ const { application } = require("Express");
 const productsRouter = require("./Routes/products");
 const express = require("Express");
 const mongoose = require("mongoose");
-require("dotenv/config");
 const bodyParser = require("body-parser");
 
 const serverPort = 5000;
